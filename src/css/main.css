@@ -5,6 +5,11 @@
     padding: 0;
     margin: 0;
 }
+a {
+    text-transform: none;
+    color: var(--black);
+    cursor: pointer;
+}
 :root {
     --black: #383838;
     --grey: #D8D8D8;
@@ -88,7 +93,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #383838;
+    color: var(--black);
 }
 .step_counter {
     font-weight: 400;
@@ -153,7 +158,7 @@
     color: white;
     height: 56px;
     padding: 12px;
-    background: #383838;
+    background: var(--black);
     width: 100%;
     border: none;
     outline: none;
@@ -173,7 +178,7 @@
     color: #9B9B9B;
 }
 .finally_template p span {
-    color: #383838;
+    color: var(--black);
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -182,7 +187,7 @@
 .select_wrapper {
     width: 100%;
     height: 56px;
-    border: 1px solid #383838;
+    border: 1px solid var(--black);
     border-radius: 16px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
@@ -293,8 +298,8 @@ input[type="radio"]:checked::before {
     height: 50%;
 }
 input[type="radio"]:checked {
-    background: #000;
-    border: 2px solid black;
+    background: var(--black);
+    border: 2px solid var(--black);
 }
 .buttons_flex {
     margin-top: 32px;
@@ -322,7 +327,7 @@ input[type="radio"]:checked {
     height: 47px;
     cursor: pointer;
     padding: 12px 20px;
-    background: #383838;
+    background: var(--black);
     outline: none;
     border: none;
     color: white;
@@ -345,7 +350,7 @@ input[type="radio"]:checked {
     background: white;
     outline: none;
     border: none;
-    color: #383838;
+    color: var(--black);
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
