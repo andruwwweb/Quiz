@@ -14,7 +14,9 @@ module.exports = {
     output: {
         filename: `./${filename('js')}`,
         path: path.resolve(__dirname, 'dist'),
+        publicPath: process.env.NODE_ENV === 'production' ? '/andruwwweb.github.io/' : '/'
     },
+
     devServer: {
         allowedHosts: 'all',
         historyApiFallback: true,
