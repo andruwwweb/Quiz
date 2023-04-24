@@ -128,7 +128,6 @@ a {
     align-items: center;
     width: 100%;
     position: relative;
-    background-color: none;
 }
 .finaly_template {
     width: 100%;
@@ -219,6 +218,7 @@ a {
     -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
+    background-color: none;
 }
 .input_box input {
     display: block;
