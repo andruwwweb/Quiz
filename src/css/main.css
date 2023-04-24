@@ -218,7 +218,7 @@ a {
     -moz-transform: translateY(10px);
     -ms-transform: translateY(10px);
     -o-transform: translateY(10px);
-    background-color: none;
+    background-color: transparent;
 }
 .input_box input {
     display: block;
